@@ -2,7 +2,6 @@
 const expect = require('chai').expect;
 const app = require(__dirname + '/../lib/app');
 
-
 describe('buffer', function() {
   var testFile = __dirname + '/../test_image.bmp';
   app.readFile(testFile);
